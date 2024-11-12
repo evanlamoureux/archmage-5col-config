@@ -15,8 +15,10 @@
 include:
   - board: nice_nano_v2
     shield: corne_left nice_view_adapter nice_view
-    snippet: zmk-usb-logging
-    #snippet: studio-rpc-usb-uart
+    #enable logging (Uses a lot more power, turn off!)
+    #snippet: zmk-usb-logging
+    #enable ZMK Studio, on the fly layout configuring / updating
+    snippet: studio-rpc-usb-uart
   - board: nice_nano_v2
     shield: corne_right nice_view_adapter nice_view
   - board: nice_nano_v2
