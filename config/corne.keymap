@@ -14,7 +14,7 @@
 / {
     chosen {
       zmk,matrix_transform = &five_column_transform;
-      zmk,physical-layout = &physical_layout
+      zmk,physical-layout = &physical_layout;
     };
 
     behaviors {
