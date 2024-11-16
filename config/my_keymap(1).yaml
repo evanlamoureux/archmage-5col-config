@@ -1,0 +1,150 @@
+layout: {qmk_keyboard: corne_rotated, qmk_layout: LAYOUT_split_3x5_3}
+layers:
+  Base:
+  - {t: Q}
+  - {t: W}
+  - {t: F}
+  - {t: P}
+  - {t: B}
+  - {t: J}
+  - {t: L}
+  - {t: U}
+  - {t: Y}
+  - {t: ;}
+  - {t: A}
+  - {t: R}
+  - {t: S}
+  - {t: T}
+  - {t: G}
+  - {t: M}
+  - {t: N}
+  - {t: E}
+  - {t: I}
+  - {t: O}
+  - {t: Z}
+  - {t: X}
+  - {t: C}
+  - {t: D}
+  - {t: V}
+  - {t: K}
+  - {t: H}
+  - ','
+  - .
+  - /
+  - LGUI
+  - Nav
+  - SPACE
+  - {t: RET, h: Sft+ RET}
+  - Symbols
+  - BSPC
+  Nav:
+  - 1
+  - 2
+  - 3
+  - 4
+  - 5
+  - 6
+  - 7
+  - 8
+  - 9
+  - 0
+  - {t: BT, h: '0'}
+  - {t: BT, h: '1'}
+  - {t: BT, h: '2'}
+  - {t: BT, h: '3'}
+  - {t: BT, h: '4'}
+  - {t: ▽, type: trans}
+  - UP
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - BT CLR
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - '&studio_unlock'
+  - LEFT
+  - DOWN
+  - RIGHT
+  - {t: ▽, type: trans}
+  - SHIFT
+  - LGUI
+  - {type: held}
+  - SPACE
+  - {t: RET, h: Sft+ RET}
+  - ESC
+  - TAB
+  Symbols:
+  - {t: '1', h: Sft+ 1}
+  - {t: '2', h: Sft+ 2}
+  - {t: '3', h: Sft+ 3}
+  - {t: '4', h: Sft+ 4}
+  - {t: '5', h: Sft+ 5}
+  - {t: '6', h: Sft+ 6}
+  - {t: '7', h: Sft+ 7}
+  - {t: '8', h: Sft+ 8}
+  - {t: '9', h: Sft+ 9}
+  - {t: '0', h: Sft+ 0}
+  - {t: '-', h: Sft+ -}
+  - {t: '=', h: Sft+ =}
+  - '{'
+  - '['
+  - '('
+  - ')'
+  - ']'
+  - '}'
+  - {t: /, h: Sft+ /}
+  - {t: \, h: Sft+ \}
+  - SHIFT
+  - {t: ▽, type: trans}
+  - {t: '`', h: Sft+ `}
+  - {t: ',', h: 'Sft+ ,'}
+  - ':'
+  - ;
+  - {t: ., h: Sft+ .}
+  - LCTRL
+  - RALT
+  - {t: ▽, type: trans}
+  - LGUI
+  - Gaming
+  - SPACE
+  - {t: RET, h: Sft+ RET}
+  - {type: held}
+  - TAB
+  Gaming:
+  - Q
+  - W
+  - E
+  - R
+  - T
+  - Y
+  - U
+  - I
+  - O
+  - P
+  - A
+  - S
+  - D
+  - F
+  - G
+  - H
+  - J
+  - K
+  - L
+  - ''''
+  - Z
+  - X
+  - C
+  - V
+  - B
+  - N
+  - M
+  - ESC
+  - RALT
+  - .
+  - SHIFT
+  - Base
+  - SPACE
+  - {t: RET, h: Sft+ RET}
+  - CTRL
+  - BSPC
