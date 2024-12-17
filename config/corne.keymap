@@ -10,14 +10,14 @@
 
 
 #define AS(keycode) &as LS(keycode) keycode
-
+&mt {
+    tapping-term-ms = <400>;
+            };
 / {
     chosen {
     zmk,physical-layout = &foostan_corne_5col_layout;
     };
-&mt {
-    tapping-term-ms = <400>;
-            };
+
 
     behaviors {
         as: auto_shift {
