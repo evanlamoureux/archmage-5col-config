@@ -15,6 +15,9 @@
     chosen {
     zmk,physical-layout = &foostan_corne_5col_layout;
     };
+&mt {
+    tapping-term-ms = <400>;
+            };
 
     behaviors {
         as: auto_shift {
@@ -24,10 +27,6 @@
             quick_tap_ms = <0>;
             flavor = "tap-preferred";
             bindings = <&kp>, <&kp>;
-        };
-    &mt {
-    tapping-term-ms = <400>;
-            };
         };
         keymap {
                 compatible = "zmk,keymap";
